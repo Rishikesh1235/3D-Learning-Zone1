@@ -24,7 +24,7 @@ controls.enableZoom = true;
 // Load 3D model
 const loader = new THREE.GLTFLoader();
 loader.load(
-    'path/to/your/model.gltf', // Replace with your model path
+    'main/brain.gltf', // Replace with your model path
     function (gltf) {
         scene.add(gltf.scene);
     },
